@@ -1,0 +1,142 @@
+/*
+font-family: 'Roboto', sans-serif;
+font-family: 'Ultra', serif;
+pink = #D44A4B
+grey = #f2f2f2
+*/
+
+body {
+  	overflow-x: hidden
+  }
+
+ p {
+ 	font-family: 'Roboto', sans-serif;
+ }
+
+.navbar {
+	margin-top: 150px;
+	background: none;
+	border:none;
+	color: black;
+}
+
+#navbar-primary .navbar-nav {
+	width: 100%;
+	text-align: center;
+}
+#navbar-primary .navbar-nav > li {
+	display: inline-block;
+	float: none;
+}
+#navbar-primary .navbar-nav > li > a {
+	padding-left: 30px;
+	padding-right: 30px;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 900;
+	letter-spacing: 4px;
+	color: white;
+}
+
+#navbar-primary .navbar-nav > li > a:hover {
+	background-color: transparent;
+	color: #D44A4B;
+
+}
+
+.jumbotron {
+	background-color: transparent;
+	color: white;
+	margin-top: 0 auto;
+}
+
+.textjumbo {	
+	margin-top: 100px;
+	text-align: center;
+}
+
+
+#viewmore {
+	background-color: transparent;
+	margin-top: 50px;
+	color: white;
+	border-radius: 0px;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.grey {
+	background-color: #f2f2f2;
+}
+
+#categories {
+	text-align: center;
+	margin-top: 40px;
+}
+
+h4 {
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: bold;
+
+}
+
+h3 {
+	color: #D44A4B;
+}
+
+#choice {
+	background-color: transparent;
+	border: black 1px solid;
+	width: 100px;
+	margin-left: 20px;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 80px;
+}
+
+#choice:hover {
+	background-color: #D44A4B;
+	border: none;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.thumbnail {
+	background-color: transparent;
+	border: none;
+	text-align: center;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+#logotop {
+	height:30px;
+}
+
+.imagecentre {
+	background-image: url("../images/pizzacover.jpg");
+	background-size: cover;
+	height: 900px;
+	margin-top: -100px;
+}
+
+
+
+
+
+h2 {
+	font-family: 'Mogra', serif;
+	letter-spacing: 2px;
+	font-size: 90px;
+}
+
+h3 {
+	font-size: 30px;
+	font-family: 'Roboto', sans-serif;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
